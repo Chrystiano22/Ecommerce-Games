@@ -1,0 +1,41 @@
+.header{
+    background-color: rgb(90, 105, 119);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_logo{
+    width: 100px;
+    margin: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    object-fit: contain;
+}
+
+.header_option{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_basket{
+    display: flex;
+    align-items: center;
+    text-decoration:none
+
+}
+
+.header_basket:visited {
+    color: white;
+}
+
+.header_basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration:none
+}
